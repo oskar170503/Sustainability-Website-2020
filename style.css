@@ -7,17 +7,32 @@ body {
 
 header {
   background-image: url(images/banner.png);
-  height: 400px;
+  height: 500px;
   width: 100%;
+  max-width: 100%;
   background-size: cover;
   margin-bottom: 20px;
 }
 
-.content {
+#spin {
   text-align: center;
   font-family: Poppins;
   color: white;
-  background-color: rgb(10, 102, 7);  
+  background-color: green;
+  opacity: 90%; 
+  font-size: 20px;
+  border: rgb(10, 102, 7) 3px solid;
+  border-radius: 5px;
+  animation: spin 1s infinite;
+}
+
+}
+@keyframes spin {
+  0% { content:"Humankind is polluting water in rivers and lakes faster than nature can recycle and purify."; }
+  25% { content:"More than 1 billion people still do not have access to fresh water."; }
+  50% { content: "Excessive use of water contributes to the global water stress."; }
+  75% { content: "Water is free from nature but the infrastructure needed to deliver it is expensive."; }
+  100% { content: "Humankind is polluting water in rivers and lakes faster than nature can recycle and purify."; }
 }
 
 .parallax {
@@ -77,33 +92,4 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.slider {
-  height: 45px;
-  text-align: center;
-  font-size: 30px;
-  overflow: hidden;
-  font-family: Poppins;
-  color: white;
-  background-color: rgb(10, 102, 7);  
-  border: 4px solid green;
-  border-radius: 3px;
-}
-
-.slider div, .slider div p {
-  margin: 0;
-  padding: 0;
-}
-
-.slider div {
-  animation: slide 20s 2s infinite;
-  animation-timing-function: step-start;
-}
-@keyframes slide {
-  0% { margin-top: 0; }
-  25% { margin-top: -46px; }
-  50% { margin-top: -92px; }
-  75% { margin-top: -138px; }
-  100% { margin-top: 0; }
 }

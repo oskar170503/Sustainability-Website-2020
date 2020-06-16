@@ -15,6 +15,26 @@ header {
   margin-bottom: 20px;
 }
 
+p {
+  text-align: center;
+  font-family: Poppins;
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  border: rgb(10, 102, 7) 3px solid;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: Raleway;
+  background-color: #5e9e62 ;
+  font-size: 22px;
+  border: green 3px solid;
+  border-radius: 5px;
+}
+
 .slider {
   text-align: center;
   font-family: Poppins;
@@ -67,7 +87,9 @@ header {
   background-image: url("../images/wallpaper.png");
   min-height: 500px; 
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #navbar {

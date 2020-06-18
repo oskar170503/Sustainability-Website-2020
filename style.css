@@ -4,6 +4,7 @@ body {
   background-color: rgb(101, 219, 101);
   background-size: 70px;
   margin: 0;
+  background-attachment: fixed;
 }
 
 header {
@@ -80,16 +81,6 @@ h2 {
  body {
    background-image: url(none.png);
   }
-}
-
-
-.parallax {
-  background-image: url("../images/wallpaper.png");
-  min-height: 500px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #navbar {

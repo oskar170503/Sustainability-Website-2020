@@ -1,3 +1,22 @@
+.imgcontainer {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40%;
+  left: 18%;
+  background-color: darkgreen;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Raleway;
+  font-size: 60px;
+  border: 10px black;
+  border-radius: 3px;
+  text-align: center;
+  opacity: 85%;
+}
 
 body {
   background-image: url(../images/wallpaper.png);
@@ -8,14 +27,6 @@ body {
   scroll-behavior: smooth;
 }
 
-header {
-  background-image: url(images/banner.png);
-  height: 500px;
-  width: 100%;
-  max-width: 100%;
-  background-size: cover;
-  margin-bottom: 20px;
-}
 
 p {
   text-align: center;
@@ -89,12 +100,6 @@ h2 {
   to {opacity: 1; }
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 footer {
   font-family: Poppins;
   background-color: grey;
@@ -141,4 +146,28 @@ footer {
 .active {
   background-color: #4CAF50;
   color: white;
+}
+
+/*   
+  height: 700px;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  margin-bottom: 20px;
+
+h1 {
+  font-family: Raleway;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+header {
+  height: 700px;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  margin-bottom: 20px;
 }

@@ -107,17 +107,9 @@ h2 {
   .hero-text {
     font-size: 10px;
   }
-}
 
-@media only screen and (max-width: 500px) {
- .parallax {
-   background-image: url(none.png);
-  }
-}
-
-@media only screen and (max-width: 500px)
- body {
-   background-image: url(none.png);
+  body {
+    background-image: none;
   }
 }
 
